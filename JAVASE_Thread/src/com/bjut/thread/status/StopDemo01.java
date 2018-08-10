@@ -7,8 +7,8 @@ public class StopDemo01 {
 		new Thread(s).start();
 		
 		//Õ‚≤ø∏……Ê
-		for(int i=0;i<100;i++) {
-			if(50 == i) {
+		for(int i=0;i<1000;i++) {
+			if(500 == i) {
 				s.stop();
 			}
 			System.out.println("main......"+i);

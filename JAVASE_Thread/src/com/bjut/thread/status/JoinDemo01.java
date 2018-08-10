@@ -15,8 +15,8 @@ public class JoinDemo01 extends Thread {
 		
 		
 		for(int i=0;i<1000;i++) {
-			if(i == 50)
-				t1.join();		//main×èÈû
+			if(i == 500)
+				t1.join();		//main×èÈû,µÈ´ýt1Ö´ÐÐÍê
 			System.out.println("main..."+i);
 		}
 	}
