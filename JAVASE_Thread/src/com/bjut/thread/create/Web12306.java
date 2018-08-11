@@ -1,5 +1,10 @@
 package com.bjut.thread.create;
 
+/**
+ * 线程不安全
+ * @author LENOVO
+ *
+ */
 public class Web12306 implements Runnable {
 
 	private int num = 50;
